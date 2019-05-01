@@ -1,0 +1,52 @@
+CLASS 1
+
+Assignments:
+1. Create GitHub account - github.com
+2. DL/install Git - git-scm.com
+3. Watch videos
+ - installing Git
+ - Git & GitHub crash course
+
+GIT
+Distributed version control
+  coordinates work among multiple developers, 
+    decentrallized collaboration
+  local repositories push to remote repositories
+  keeps track by taking snapshots or "commits"
+
+COMMANDS:
+$ git init        //initialize local Git repository
+$ git add <file>  // add file(s) to index
+$ git status      //check status of working tree
+$ git commit      //commit changes to index
+$ git push        //push local > remote repository
+$ git pull        //pull latest from remote repository
+$ git clone       //clone repository into new directory
+$ git rm --cached <file> //remove/unstage file
+$ git add .       //adds/stages ALL files
+$ touch <file>    //creates file
+
+Add credentials:
+$ git config --global user.name 'First Last'
+$ git config --global user.email 'my@email.com'
+
+Committing:
+$ git commit, i (insert)
+Initial commit, escape, :wq
+or
+$ git commit -m 'insert comment'
+
+ignore files/directories by adding to .gitignore file
+
+Branches:
+$ git branch newbranch    //creates new branch
+$ git checkout newbranch  //switches to new branch
+$ git checkout master     //returns to master branch
+$ git merge newbrach      
+i, add message, esc, :wq  //merges branch to master
+
+* hold CTRL + scroll to adjust text size
+
+
+
+
